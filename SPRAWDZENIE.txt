@@ -1,0 +1,10 @@
+Weryfikacja rozwiązania laboratorium 4–5
+
+1. Oryginalne testy prowadzącego: 10 passed, 0 skipped.
+2. Oba notatniki: wszystkie komórki wykonane kolejno w świeżym kontekście IPython, bez błędów; zapisano wyniki i wykresy. Schemat nbformat poprawny, brak pustych odpowiedzi i znaczników do uzupełnienia.
+3. Wyniki porównania pięciu metod w styczniu oraz walidacji lutowej zgodne z kartą. Zweryfikowano też minima pięciu krzywych kosztu i pierwszą pozycję rankingu.
+4. Marzec: 4,75 / 15,57 alarmu dziennie przed/po 16.03; po aktualizacji 5,50. F1 po zmianie: 0,1983 przed aktualizacją i 0,4752 po aktualizacji.
+5. Streamlit AppTest: poprawny start i 15 kombinacji (3 miesiące × 5 metod), bez wyjątków. Domyślnie 60 alarmów, precision 0,75, recall 1,00, F1 0,86, koszt 1500 zł.
+6. Modele i skaler dopasowane na styczniu. Wyniki z etykiet służą ocenie, nie wyborowi progu.
+7. Zachowane dokładne wersje z requirements.txt. Weryfikacja na Pythonie 3.12; konfiguracje wdrożenia dostarczone przez prowadzącego używają Pythona 3.13.
+8. Publikacja GitHub / Render pozostaje do wykonania na koncie użytkownika. Nie potwierdzono testów na GitHub Actions ani działania publicznego adresu.
